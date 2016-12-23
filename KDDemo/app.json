@@ -1,0 +1,11 @@
+{
+  "pages":[
+    "pages/express/express"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "快递查询",
+    "navigationBarTextStyle":"black"
+  }
+}

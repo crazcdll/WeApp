@@ -1,0 +1,35 @@
+/* pages/kuaidi/kuaidi.wxss */
+input{
+    width: 90%;
+    margin: 5%;
+    margin-top: 25px;
+    border: 1px solid yellowgreen;
+    padding: 5px;
+}
+
+button{
+    margin-top: 20px;
+    width: 200px;
+}
+
+scroll-view{
+    padding: 15px;
+    width:90%;
+    border: 1px solid darkgreen;
+    margin: 5%;
+    box-sizing: border-box;
+}
+
+.info-index{
+    font-weight: bold;
+    color: yellowgreen;
+}
+
+.footer{
+    text-align: center;
+    margin-top: 50px;
+    font-family: "Microsoft Yahei";
+    color: forestgreen;
+    letter-spacing: 5px;
+    font-size: 26px;
+}

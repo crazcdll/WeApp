@@ -1,0 +1,15 @@
+<view class="kd">
+
+  <!--<label>883848096284185536</label>-->
+  <input placeholder="请输入快递单号" auto-focus bindinput="input" />
+  <button type="primary" bindtap="btnClick"> 查询 </button>
+  <scroll-view scroll-y="true" style="height: 400px;">
+    <view wx:for="{{expressInfo.showapi_res_body.data}}" wx:key="*this">
+      <label class="info-index">{{index+1}}--</label>{{item.context}} <text>【{{item.time}}】</text>
+    </view>
+  </scroll-view>
+  
+</view>
+<view class="footer">
+<label >第一个微信小程序 Demo</label>
+</view>
