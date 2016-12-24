@@ -1,0 +1,26 @@
+/* pages/node/node.wxss */
+
+.node-list {
+  display: flex;
+  /*flex-direction: row;*/
+  flex-wrap: wrap;
+}
+.node {
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 30%;
+  text-align: center;
+  align-items: center;
+  margin: 2px;
+  padding: 3px;
+  box-sizing: border-box;
+  background-color: #09bb07;
+  border-radius: 15%;
+  margin-bottom: 5px;
+  margin-left: 10px;
+  color: aliceblue;
+}
+
+.node-name {
+  display: block;
+}

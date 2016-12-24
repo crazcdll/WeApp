@@ -1,0 +1,27 @@
+
+<!--pages/post/post.wxml-->
+<view class="container">
+  <view class="post">
+    <view class="title">
+      <text>{{post.title}}</text>
+    </view>
+    <view class="author">
+      <text>{{post.member.username}}</text>
+    </view>
+    <view class="content">
+      <text>{{post.content}}</text>
+    </view>
+    <view class="info">
+      <text>{{post.replies}}条回复</text>
+      <text>{{post.node.title}}</text>
+    </view>
+  </view>
+  <view class="comment" wx:for="{{comment}}" wx:key="*this">
+    <view class="comment-title">
+      <text>{{item.member.username}}</text>
+    </view>
+    <view class="comment-content">
+      <text>{{item.content}}</text>
+    </view>
+  </view>
+</view>

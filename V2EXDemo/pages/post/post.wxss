@@ -1,0 +1,32 @@
+/* pages/post/post.wxss */
+.container{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.post{
+    background-color: #C2C2C2;
+    padding: 5px;
+}
+.comment{
+    color: #888888;
+    margin-top: 20px;
+    padding: 10px;
+    font-size: 14px;
+}
+.title{
+    font-size: 20px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.author{
+    font-size: 14px;
+}
+.content{
+font-size: 17px;
+}
+.info{
+font-size: 14px;
+display: flex;
+justify-content: space-between;
+}

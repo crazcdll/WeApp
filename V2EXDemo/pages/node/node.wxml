@@ -1,0 +1,8 @@
+<!--pages/node/node.wxml-->
+<view class="container">
+<view class="node-list">
+    <view class="node" wx:for="{{nodes}}"  wx:if="{{item.id < 100}}" bindtap="nodeTap" id="{{item.id}}"  wx:key="*this">
+        <text class="node-name">{{item.name}}</text>
+    </view>
+</view>
+</view>

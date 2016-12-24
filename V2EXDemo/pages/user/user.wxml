@@ -1,0 +1,23 @@
+
+<!--pages/user/user.wxml-->
+<view class="container">
+  <image src="../../images/image.png" class="avatar"></image>
+  <text>text</text>
+  <view class="subject">
+    <view class="title">
+      <text>这是标题</text>
+    </view>
+    <view class="info">
+      <text>10条回复</text>
+      <text class="node">节点</text>
+    </view>
+  </view>
+  <view class="subject">
+    <view class="title">
+      <text>这是标题</text>
+    </view>
+    <view class="info">
+      <text>10条回复</text>
+      <text class="node">节点</text>
+    </view>
+  </view>

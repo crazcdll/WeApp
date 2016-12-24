@@ -1,0 +1,32 @@
+
+<!--index.wxml-->
+<view class="container">
+  <view class="common-box">
+    <text class="common-text">最新主题</text>
+    <view class="post" catchtap="onTouch" wx:for="{{post}}" id="{{item.id}}"  wx:key="*this">
+      <image src="{{item.member.avatar_normal}}" class="avatar"></image>
+      <text class="username">{{item.member.username}}</text>
+      <view class="title">
+        <text>{{item.title}}</text>
+      </view>
+      <view class="info">
+        <text>{{item.replies}}条回复</text>
+        <text class="node">{{item.node.name}}</text>
+      </view>
+    </view>
+  </view>
+  <view class="common-box">
+    <text class="common-text">最热主题</text>
+    <view class="post" wx:for="{{hot}}"  catchtap="onTouch" id="{{item.id}}"  wx:key="*this">
+      <image src="{{item.member.avatar_normal}}" class="avatar"></image>
+      <text class="username">{{item.member.username}}</text>
+      <view class="title">
+        <text>{{item.title}}</text>
+      </view>
+      <view class="info">
+        <text>{{item.replies}}条回复</text>
+        <text class="node">{{item.node.name}}</text>
+      </view>
+    </view>
+  </view>
+</view>
